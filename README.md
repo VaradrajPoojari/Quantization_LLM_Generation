@@ -1,2 +1,4 @@
 # Quantization_LLM_Generation
 In the given notebook, the decision to employ 4-bit quantization for various models is for an optimal trade-off between efficiency and accuracy. Quantization involves converting the model's numerical precision from a higher (e.g., 32-bit floating point) to a lower precision, in this case, 4-bit integers.
+
+The primary motivation behind choosing 4-bit quantization lies in its ability to significantly reduce memory usage and accelerate computations. By employing the lowest possible precision while still maintaining a reasonable level of accuracy, the model becomes well-suited for deployment on devices with limited memory resources, real-time applications, and specialized hardware accelerators. The choice of 4-bit quantization aligns with the objective of achieving these benefits while minimizing the impact on model performance.
